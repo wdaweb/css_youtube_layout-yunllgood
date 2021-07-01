@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto', 'Noto Sans TC', 'Micrsoft JhenHei', sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* logo區-------------------------------------------------------------- */
+#logo {
+  height: 56px;
+  padding: 0 16px;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+/* start */
+#start {
+  width: 185px;
+  height: 40px;
+  margin: 8px 0px;
+  float: left;
+}
+
+#start .menu {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  margin-right: 16px;
+  float: left;
+}
+
+#start .menu img {
+  width: 24px;
+}
+
+#start .logo {
+  float: left;
+  width: 90px; /*容器寬*/
+  height: 40px; /*容器高*/
+  line-height: 40px; /*line-height等同容器高度*/
+  text-align: center; /*設定圖片水平置中*/
+  overflow: hidden;
+}
+#start .logo img {
+  max-width: 90px;
+  vertical-align: middle; /*設定圖片垂直置中*/
+}
+
+#start .tw {
+  float: left;
+  color: #606060;
+  font-size: 0.5rem;
+}
+
+/* center */
+#center {
+  float: left;
+  width: 700px;
+  height: 40px;
+  margin: 8px 200px;
+  padding: 5px 0;
+}
+
+#center .search {
+  width: 574px;
+  height: 30px;
+  padding: 5px 5px;
+  border: 1px solid #d3d3d3;
+  cursor: text; /* 改變鼠標圖案 */
+  border-radius: 2px 0 0 2px;
+  float: left;
+}
+
+#center button {
+  float: left;
+  width: 65px;
+  height: 30px;
+  padding: 0px 10px;
+  background: #f8f8f8;
+  font-size: 17px;
+  border: 1px solid #d3d3d3;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+#center button:hover {
+  background: #ccc;
+}
+
+#center .mic {
+  float: left;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 3px 0;
+  text-align: center;
+}
+
+/* end*/
+#end {
+  float: right;
+  width: 215px;
+  height: 40px;
+  margin: 8px 0px;
+}
+
+#end i {
+  width: 40px;
+  height: 40px;
+  color: #4d4d4d;
+  float: left;
+  margin-right: 10px;
+  padding: 8px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+#end img {
+  border-radius: 18px;
+}
+
+/* guide區-------------------------------------------------------------- */
+#guide {
+  width: 240px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 56px;
+  overflow-y: auto; /* 卷軸 */
+}
+
+/* 卷軸樣式 */
+#guide::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/*卷軸裡面的方塊樣式*/
+#guide::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #ccc;
+}
+
+/*  s01 一般功能 */
+#s01 {
+  height: 410px;
+  width: 240px;
+  padding: 12px 0;
+}
+
+.guide-btn {
+  width: 228px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.guide-btn:hover {
+  background: #eee;
+  height: 40px;
+}
+
+.guide-btn i {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: #4d4d4d;
+  padding: 10px 0;
+  margin-left: 16px;
+  text-align: center;
+  float: left;
+}
+
+.guide-btn p {
+  float: left;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  margin-left: 13px;
+}
+
+.guide-hr {
+  width: 228px;
+  height: 1px;
+  background: #ddd;
+  margin: 12px 0;
+}
+
+.guide-hr2 {
+  width: 228px;
+  height: 1px;
+  background: #ddd;
+}
+
+/* s02 訂閱內容 */
+#s02 {
+  height: 380px;
+  width: 240px;
+  padding: 12px 0;
+}
+.guide-title {
+  width: 240px;
+  height: 34px;
+  font-size: 14px;
+  color: #333;
+  line-height: 34px;
+  margin-left: 24px;
+}
+
+#s02 .guide-btn .photo {
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  padding: 8px;
+  float: left;
+}
+
+#s02 .guide-btn img {
+  border-radius: 12px;
+}
+
+#s03 {
+  width: 240px;
+  height: 445px;
+  padding: 12px 0;
+}
+
+#s04 {
+  width: 240px;
+  height: 100px;
+  font-size: 12px;
+  padding: 24px;
+  margin-bottom: 120px;
+}
+
+#s04 a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer {
+  color: #999;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+/* viedo區-------------------------------------------------------------- */
+#viedo {
+  width: 1296px;
+  height: 100%;
+  background: #f9f9f9;
+  position: fixed;
+  left: 240px;
+  top: 56px;
+  overflow-y: auto;
+}
+
+/* 卷軸樣式 */
+#viedo::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/*卷軸裡面的方塊樣式*/
+#viedo::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #666;
+}
+
+.container {
+  width: 1260px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.col {
+  width: 300px;
+  display: inline-block;
+  margin: 6px;
+  font-size: 1rem;
+}
+
+.viedo-img {
+  width: 300px;
+  height: 160px;
+  /* 圖片滿版 */
+  object-fit: cover;
+}
+
+.chaneel-photo {
+  width: 52px;
+  height: 140px;
+  padding: 12px 12px 0 0;
+  float: left;
+}
+
+.chaneel-photo img {
+  border-radius: 18px;
+}
+
+.chennel-text {
+  width: 248px;
+  height: 140px;
+  float: right;
+  padding: 12px 12px 0 0;
+}
+
+.name {
+  font-size: 14px;
+  color: #030303;
+}
+
+.channelName {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
